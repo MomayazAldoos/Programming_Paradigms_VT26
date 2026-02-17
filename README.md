@@ -1,12 +1,24 @@
-# Functional Programming Lab: Rose Trees & Matrix Operations
+# Programming Paradigms VT2026
 
-A comprehensive implementation of advanced data structures and higher-order functions in Haskell, demonstrating functional programming principles and mathematical computing.
+A comprehensive collection of functional programming implementations in Haskell, demonstrating advanced programming concepts and mathematical computing.
 
-## 🚀 Technical Overview
+## 📂 Lab Structure
 
-This project implements two key data structures with complete operation sets:
-- **Rose Trees** (n-ary trees) with traversal and mapping operations
-- **Sparse Matrix representation** with full mathematical operations
+### Lab 4: Functional Programming Fundamentals
+`funktionell_programmering.hs` - Complete Haskell implementation covering basic functional programming concepts:
+- Recursive function design
+- Pattern matching and guards  
+- List processing techniques
+- Higher-order functions
+- I/O operations in functional programming
+
+### Lab 5: Rose Trees & Matrix Operations
+
+**Files:**
+- `rosTräd.hs` - Advanced data structures and operations
+- Complete implementation of Rose Trees and Matrix operations
+
+**Implementation highlights:**
 
 ## 🌳 Rose Tree Implementation
 
@@ -26,12 +38,6 @@ data RoseTree a = N a [RoseTree a]
   ```haskell
   mapRoseTree :: (a -> b) -> RoseTree a -> RoseTree b
   ```
-
-**Example Usage:**
-```haskell
-> mapRoseTree (+1) tree
--- Adds 1 to every node in the tree
-```
 
 ## 🔢 Matrix Operations Suite
 
